@@ -19,6 +19,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: to-do-app-backend
+  namespace: java
   labels: 
     app: to-do-app
     tier: backend
