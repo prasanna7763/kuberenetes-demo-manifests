@@ -4,4 +4,4 @@ kind: ConfigMap
 metadata:
   name: backend-conf # name of configMap
 data:
-  server-uri: 34.66.207.42 # enternal ip of backend application 'Service'
+  server-uri: a01bf243c91404921adf3297f23a6a2f-542278406.us-east-2.elb.amazonaws.com # enternal ip of backend application 'Service'
