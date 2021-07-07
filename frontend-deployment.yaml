@@ -3,6 +3,7 @@ apiVersion: v1
 kind: Service
 metadata:
   name: to-do-app-frontend
+  namespace: java
 spec:
   selector: # pod labels should match these
     app: to-do-app
