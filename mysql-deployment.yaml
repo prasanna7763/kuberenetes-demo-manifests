@@ -3,6 +3,7 @@ apiVersion: v1
 kind: Service
 metadata:
   name: mysql  # DNS name 
+  namespace: java
   labels:
     app: mysql
     tier: database
